@@ -16,8 +16,23 @@ public class Solution {
          else {
             return d;
          }
-       
+         
     }
+        
+     public static int min(int a, int b) {
+        //напишите тут ваш код
+        
+        if (a > b){
+            return b;
+            
+        }
+        else{
+             return a;
+        }
+
+    }    
+
+
 
     public static void main(String[] args) throws Exception {
         System.out.println(min(-20, -10));
@@ -27,3 +42,4 @@ public class Solution {
         System.out.println(min(-20, -10, -30, -40));
     }
 }
+
